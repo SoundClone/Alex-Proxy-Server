@@ -1,3 +1,12 @@
 [submodule "Main-Media-Player"]
 	path = Main-Media-Player
-	url = https://github.com/SoundClone/Main-Media-Player.git
+	url = https://github.com/alexkim612/Main-Media-Player.git
+[submodule "BottomTopBar"]
+	path = BottomTopBar
+	url = https://github.com/alexkim612/BottomTopBar.git
+[submodule "comments-main"]
+	path = comments-main
+	url = https://github.com/alexkim612/comments-main.git
+[submodule "Post-Comments-and-Buttons"]
+	path = Post-Comments-and-Buttons
+	url = https://github.com/alexkim612/Post-Comments-and-Buttons.git
