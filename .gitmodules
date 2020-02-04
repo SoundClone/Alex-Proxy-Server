@@ -1,0 +1,3 @@
+[submodule "Main-Media-Player"]
+	path = Main-Media-Player
+	url = https://github.com/SoundClone/Main-Media-Player.git
