@@ -1,0 +1,31 @@
+body {
+  font: 12px/1.4 Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;
+}
+
+#navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5000;
+}
+
+.appContainer {
+  padding: 0 30px;
+  width: 1180px;
+  margin: 0 auto;
+}
+
+#MainMediaPlayer {
+  width: 1180px;
+  height: 380px;
+  margin-top: 45px;
+}
+
+.commentContainer {
+  width: 1180px;
+  margin-top: 55px;
+  position: relative;
+  height: 100%;
+  margin-bottom: 55px;
+}
