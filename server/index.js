@@ -4,10 +4,14 @@ const port = 1000;
 const path = require('path');
 const morgan = require('morgan');
 const axios = require('axios');
+const cors = require('cors');
 
 
 //serve files from dist
 app.use(express.static(path.join(__dirname, '../client')));
+
+//use cors
+app.use(cors());
 
 //See all incoming requests
 app.use(morgan('dev'));
@@ -48,7 +52,7 @@ app.get('/buttons/exit.svg', (req, res) => {
     });
 });
 
-app.get('/buttons/4e6f865c81aa54f9e778e35e7ac3ed73.mp3', (req, res) => {
+app.get('/4e6f865c81aa54f9e778e35e7ac3ed73.mp3', (req, res) => {
   axios.get('http://localhost:9000/4e6f865c81aa54f9e778e35e7ac3ed73.mp3')
     .then(response => {
       res.send(response.data);
