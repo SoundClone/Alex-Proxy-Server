@@ -22,10 +22,24 @@ body {
   margin-top: 45px;
 }
 
-.commentContainer {
+.bottomContainer {
   width: 1180px;
   margin-top: 55px;
   position: relative;
   height: 100%;
   margin-bottom: 55px;
+}
+
+.commentContainer {
+  width: 819px;
+  padding-right: 30px;
+  border-right: lightgrey solid 1px;
+}
+
+#Post-Comments-and-Buttons {
+  
+}
+
+#Comments-Main {
+
 }
