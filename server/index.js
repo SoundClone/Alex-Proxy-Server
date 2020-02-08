@@ -16,7 +16,7 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 app.get('/songs', (req, res) => {
-  axios.get('http://localhost:9000/songs')
+  axios.get('http://44.228.254.149:9000/songs')
     .then(response => {
       res.send(response.data);
     })
@@ -27,7 +27,7 @@ app.get('/songs', (req, res) => {
 });
 
 app.get('/api/comments', (req, res) => {
-  axios.get('http://localhost:3001/api/comments')
+  axios.get('http://18.144.144.76:3001/api/comments')
     .then(response => {
       res.send(response.data);
     })
@@ -38,7 +38,7 @@ app.get('/api/comments', (req, res) => {
 });
 
 app.get('/buttons/exit.svg', (req, res) => {
-  axios.get('http://localhost:3000/buttons/exit.svg')
+  axios.get('http://13.56.50.57:3000/buttons/exit.svg')
     .then(response => {
       res.send(response.data);
     })
