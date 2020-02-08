@@ -48,16 +48,6 @@ app.get('/buttons/exit.svg', (req, res) => {
     });
 });
 
-app.get('/4e6f865c81aa54f9e778e35e7ac3ed73.mp3', (req, res) => {
-  axios.get('http://localhost:9000/4e6f865c81aa54f9e778e35e7ac3ed73.mp3')
-    .then(response => {
-      res.send(response.data);
-    })
-    .catch(error => {
-      console.log(error);
-      res.send(error);
-    });
-});
 
 
 //notification on open server
